@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-
+#include "PointerFunction.h"
 using namespace std;
 
 void test(void);
@@ -10,8 +10,9 @@ void test1(void);
 
 int main()
 {
-    test();
-    test1();
+    //test();
+    //test1();
+    testArr();
 }
 
 void test(void) {

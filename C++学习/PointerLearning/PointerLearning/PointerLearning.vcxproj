@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="PointerFunction.cpp" />
     <ClCompile Include="PointerLearning.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PointerFunction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
