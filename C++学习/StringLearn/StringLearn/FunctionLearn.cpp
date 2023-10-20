@@ -9,6 +9,8 @@ using namespace std;
 #define MSG "I am a symbolic string constant."
 #define MAXLENGTH 81
 #define STRLEN 15
+#define LIM		20
+#define STOP	"quit"
 
 void test(void) {
 	char words[MAXLENGTH] = "I am a string in an array.";
@@ -110,5 +112,61 @@ void Show_strncat(void) {
 }
 
 void Show_strcmp(void) {
-	
+	char input[LIM][MAXLENGTH];
+	int ct = 0;
+	printf("Enter up to %d lines (type quit to quit): \n", LIM);
+	while (ct < LIM && s_gets(input[ct], MAXLENGTH) != NULL && strcmp(input[ct], STOP) != 0) {
+		ct++;
+	}
+	printf("%d strings entered\n", ct);
+
+}
+
+char* s_gets(char *str, int size) {
+	char* ret_val;
+	int i = 0;
+
+	ret_val = fgets(str, size, stdin);
+	if (ret_val) {
+		while (str[i] != '\n' && str[i] != '\0') 
+			i++;
+		if (str[i] == '\n')
+			str[i] = '\0';
+		else
+			while (getchar() != '\n')
+				continue;
+	}
+	return ret_val;
+}
+
+void SortString(void) {
+	char input[LIM][MAXLENGTH];
+	char* ptstr[LIM];		//char类型指针数组
+	int count = 0;
+	int k = 0;
+	printf("Input up to %d lines, and I will sort them.\n", LIM);
+	printf("To stop, press Enter key at a line's strat.\n");
+	while (count < LIM && s_gets(input[count], MAXLENGTH) != NULL && input[count][0] != '\0') {
+		ptstr[count] = input[count];
+		count++;
+	}
+	sortstring(ptstr, count);
+	puts("\nHere's the sorted list:\n");
+	for (k = 0; k < count; k++)
+		puts(ptstr[k]);
+
+}
+
+void sortstring(char *strings [], int num) {
+	char* temp = NULL;
+	int top = 0, seek = 0;
+	for (top = 0; top < num - 1; top++) {
+		for (seek = top + 1; seek < num; seek++) {
+			if (strcmp(strings[top], strings[seek]) > 0) {
+				temp = strings[top];
+				strings[top] = strings[seek];
+				strings[seek] = temp;
+			}
+		}
+	}
 }

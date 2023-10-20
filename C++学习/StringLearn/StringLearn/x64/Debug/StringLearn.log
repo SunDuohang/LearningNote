@@ -1,19 +1,19 @@
 ﻿  FunctionLearn.cpp
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(45,7): warning C4101: “words”: 未引用的局部变量
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(77,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(77,9): message : 请考虑在格式字符串中使用“%zd”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(88,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(88,9): message : 请考虑在格式字符串中使用“%zd”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(89,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(89,9): message : 请考虑在格式字符串中使用“%zd”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(93,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(93,9): message : 请考虑在格式字符串中使用“%zd”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(102,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(102,9): message : 请考虑在格式字符串中使用“%zd”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(103,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(103,9): message : 请考虑在格式字符串中使用“%zd”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(47,7): warning C4101: “words”: 未引用的局部变量
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(79,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(79,9): message : 请考虑在格式字符串中使用“%zd”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(90,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(90,9): message : 请考虑在格式字符串中使用“%zd”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(91,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(91,9): message : 请考虑在格式字符串中使用“%zd”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(95,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(95,9): message : 请考虑在格式字符串中使用“%zd”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(104,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(104,9): message : 请考虑在格式字符串中使用“%zd”
 D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(105,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
 D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(105,9): message : 请考虑在格式字符串中使用“%zd”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(108,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(108,9): message : 请考虑在格式字符串中使用“%zd”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(107,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(107,9): message : 请考虑在格式字符串中使用“%zd”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(110,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
+D:\Project\C++Projects\StringLearn\StringLearn\FunctionLearn.cpp(110,9): message : 请考虑在格式字符串中使用“%zd”
   StringLearn.vcxproj -> D:\Project\C++Projects\StringLearn\x64\Debug\StringLearn.exe

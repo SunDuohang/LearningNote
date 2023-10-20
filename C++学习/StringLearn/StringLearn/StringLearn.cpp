@@ -11,7 +11,7 @@ using namespace std;
 
 int main()
 {
-    Show_strncat();
+	SortString();
 
 }
 
